@@ -1,0 +1,61 @@
+/*RESET*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* COMMON */
+
+body{
+    font-family: sans-serif;
+    background-color: gray;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    margin-top: 4rem;
+}
+
+/*MAIN*/
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+#blackboard{
+    width: 100%;
+    margin: 4rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: blue;
+    border-radius: 10px;
+}
+
+#blackboard > div {
+    flex-basis: calc(100% / 10 - 1rem);
+    margin: .5rem;
+    text-align: center;
+    padding: 1rem 0;
+    border-radius: 30px;
+}
+
+/*COLORS BACKGROUND ON NUMBERS*/
+
+.gray{
+    background-color: rgb(93, 96, 96);
+}
+
+.red{
+    background-color: red;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.orange{
+    background-color: orange;
+}
